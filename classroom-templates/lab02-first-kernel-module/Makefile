@@ -1,6 +1,6 @@
-KDIR = $(HOME)/bbb-workspace/kernel/bb-kernel/KERNEL
+KDIR = $(HOME)/bbb-workspace/kernel/bb-kernel-6.12.96/KERNEL
 ARCH = arm
-CROSS_COMPILE = arm-linux-gnueabi-
+CROSS_COMPILE = $(HOME)/bbb-workspace/kernel/bb-kernel/dl/gcc-14.4.0-nolibc/arm-linux-gnueabi/bin/arm-linux-gnueabi-
 
 MODULE_NAME = lab02_hello
 
